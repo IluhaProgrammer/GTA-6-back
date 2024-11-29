@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "target": "ES6",                                                             
+    "esModuleInterop": true,  
+    "moduleResolution": "Node",                           
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                                       
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "lib": ["esnext"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
